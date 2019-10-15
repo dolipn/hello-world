@@ -15,5 +15,5 @@ fprintf( stderr, "curl_easy_perform() failed:%sln",
 curl_easy_strerror(res));
 curl_ easy_cleanup(curl);
 }
-return0;
+return 0;
 }
